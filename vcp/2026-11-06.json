@@ -1,0 +1,63 @@
+{
+  "strategy": "VCP",
+  "date": "2026-11-06",
+  "generated_at": "2026-11-07T00:06:03.073772+09:00",
+  "universe_count": 2771,
+  "scanned": 2771,
+  "count": 3,
+  "status": "complete",
+  "counts": {
+    "no_match": 2432,
+    "insufficient_history": 108,
+    "invalid_ohlcv": 228,
+    "match": 3
+  },
+  "stocks": [
+    {
+      "code": "417310",
+      "name": "코람코더원리츠",
+      "market": "KOSPI",
+      "close": 2405,
+      "ma50": 2381.12,
+      "ma150": 2217.83,
+      "ma200": 2137.74,
+      "from_52week_low_pct": 82.61,
+      "from_200bar_high_pct": -3.41,
+      "ma50_gap_pct": 1.0,
+      "low_volume_days": 3,
+      "max_5day_intraday_range_pct": 3.53,
+      "max_5day_body_pct": 0.83
+    },
+    {
+      "code": "079940",
+      "name": "가비아",
+      "market": "KOSDAQ",
+      "close": 49600,
+      "ma50": 42373.0,
+      "ma150": 36937.33,
+      "ma200": 35364.75,
+      "from_52week_low_pct": 99.2,
+      "from_200bar_high_pct": -4.62,
+      "ma50_gap_pct": 17.06,
+      "low_volume_days": 3,
+      "max_5day_intraday_range_pct": 5.48,
+      "max_5day_body_pct": 1.64
+    },
+    {
+      "code": "035610",
+      "name": "솔본",
+      "market": "KOSDAQ",
+      "close": 4985,
+      "ma50": 4945.9,
+      "ma150": 4246.93,
+      "ma200": 4126.0,
+      "from_52week_low_pct": 58.0,
+      "from_200bar_high_pct": -10.98,
+      "ma50_gap_pct": 0.79,
+      "low_volume_days": 2,
+      "max_5day_intraday_range_pct": 9.98,
+      "max_5day_body_pct": 3.68
+    }
+  ],
+  "criteria": "See VCP_README.md; unadjusted Naver price history; no corporate-action validation"
+}
